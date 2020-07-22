@@ -1,8 +1,8 @@
 *{
-    outline: dashed 1px royalblue;
+    /* outline: dashed 1px royalblue; */
     margin: 0;
     padding: 0;
-    color: navy;
+    color: #eebb4d;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
 }
 
@@ -13,9 +13,9 @@ body{
     margin-bottom: 20px;
 }
 header{
-    background-color: paleturquoise;
+    background-color: #222831;
     height: 165px;
-    border-bottom: solid 10px darkolivegreen;
+    border-bottom: solid 10px #5a3d55;
  }
  /* .clearfix::after {
     content: "";
@@ -23,7 +23,7 @@ header{
     display: block;
   } */
  nav a:hover {
-    background-color: darkolivegreen;
+    background-color: #5a3d55;
     padding-top: 5px;
     padding-bottom:15px;
     border-radius: 10px 10px 0 0;
@@ -35,8 +35,10 @@ h1 {
     text-shadow: 2px 2px 2px darkcyan;
 }
 h1 a:hover {
-    background-color: darkolivegreen;
+    background-color: #5a3d55;
     padding: 5px;
+    padding-left: 0;
+    padding-right: 0;
     border-radius: 15px 15px 15px 15px ;
   }
 
@@ -46,6 +48,8 @@ h1 a:hover {
 
 nav ul{
     text-align: right;
+    font-size: 16;
+    font-weight: bold;
 }
 
 nav li{
@@ -62,7 +66,7 @@ a:active {text-decoration: none;}
 
 main{
     text-align: center;
-    background-color: cornflowerblue;
+    background-color: 2d4059;
 }
 h2{
     width: 500;
@@ -95,7 +99,7 @@ footer {
     clear:both;
     height: 60;
     font-size: 20;
-    background-color: darkorange;
+    background-color: #222831;
     color: aliceblue;
     display: flex;
     justify-content: center;
@@ -103,7 +107,7 @@ footer {
 
 }
 footer a:hover {
-    background-color: darkolivegreen;
+    background-color: #5a3d55;
     padding: 5px;
     border-radius: 15px 15px 15px 15px ;
   }
