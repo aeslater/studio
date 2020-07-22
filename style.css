@@ -1,3 +1,109 @@
 *{
-    border: dashed 1px 000000;
+    outline: dashed 1px royalblue;
+    margin: 0;
+    padding: 0;
+    color: navy;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
 }
+
+body{
+    width: 960px;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+header{
+    background-color: paleturquoise;
+    height: 165px;
+    border-bottom: solid 10px darkolivegreen;
+ }
+ /* .clearfix::after {
+    content: "";
+    clear: both;
+    display: block;
+  } */
+ nav a:hover {
+    background-color: darkolivegreen;
+    padding-top: 5px;
+    padding-bottom:15px;
+    border-radius: 10px 10px 0 0;
+  }
+
+h1 {
+     padding:20;
+    font-size: 50;
+    text-shadow: 2px 2px 2px darkcyan;
+}
+h1 a:hover {
+    background-color: darkolivegreen;
+    padding: 5px;
+    border-radius: 15px 15px 15px 15px ;
+  }
+
+/* nav {
+    clear:both
+} */
+
+nav ul{
+    text-align: right;
+}
+
+nav li{
+    display: inline-block;
+    /* height: 40; */
+    margin-top: 40;
+    margin-right: 35;
+}
+
+a:link {text-decoration: none;}
+a:visited {text-decoration: none;}
+a:hover {text-decoration: none;}
+a:active {text-decoration: none;}
+
+main{
+    text-align: center;
+    background-color: cornflowerblue;
+}
+h2{
+    width: 500;
+    margin: auto;
+    padding: 30;
+    /* background-color: chocolate; */
+}
+
+
+
+.lessonformats, .instruments{
+    margin: 10;
+    margin-top:0;
+    padding: 10;    
+    /* border: solid 2px darkgoldenrod; */
+    background-color: cadetblue;
+}
+
+.lessonformats {
+    height:400;
+    width: 240;
+    }
+
+.instruments {
+    height:200;
+    width: 300;
+}
+
+footer {
+    clear:both;
+    height: 60;
+    font-size: 20;
+    background-color: darkorange;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+footer a:hover {
+    background-color: darkolivegreen;
+    padding: 5px;
+    border-radius: 15px 15px 15px 15px ;
+  }
