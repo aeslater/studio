@@ -1,6 +1,5 @@
 'use strict';
 
-console.log('This file is connected and ready to run.');
 
 //          This section is for a countdown timer showing days until music school starts (during summer)
 //          Or for a week counter showing which week of the school year we are in.
@@ -18,22 +17,23 @@ var thisWeek; // this is the week number of the school year, from 1 to 36. I'm c
 // If it's summer, display a countdown days timer until school starts.
 if (today >= summerStart && today < schoolStart) {
     daysLeft = Math.round((schoolStart - today)/(1000*60*60*24)+1);
-    document.write(daysLeft + ' Days until <br> Music School Starts!'); 
+    document.getElementById("counter").innerHTML = (daysLeft + ' Days until <br> Music School Starts!'); 
     // Please use .textContent or .innerHTML and avoid document.write()
     }
 
 // If it's during school year but before the next calendar year (i.e. fall semester), display the week # of the school year
 else if (today >= schoolStart) {
     thisWeek = Math.floor((today - schoolStart) / 7); // Round down.
-    document.write('We are in<br>Week ' + thisWeek + ' of 36');
+    document.getElementById("counter").innerHTML = ('We are in<br>Week ' + thisWeek + ' of 36');
 }
 
 // If it's during school year and before summer (i.e. spring semester), display the week # of the school year
 // Adding number of weeks in spring semester plus 16 weeks for last calendar year's fall semester
 else {
     thisWeek = Math.floor((today / 7) + 16);
-    document.write('We are in<br>Week ' + thisWeek + ' of 36');
+    document.getElementById("counter").innerHTML = ('We are in<br>Week ' + thisWeek + ' of 36');
 }
+
 
 
 
